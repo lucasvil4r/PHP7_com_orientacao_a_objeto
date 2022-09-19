@@ -5,7 +5,7 @@
 //Classe generica
 //superclasse
 
-class Conta 
+abstract class Conta 
 {
     private $agencia;
     private $conta;

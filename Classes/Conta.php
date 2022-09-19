@@ -1,11 +1,12 @@
 <?php
 
+include_once "interfaceConta.php";
 //Mae
 //Classe raiz
 //Classe generica
 //superclasse
 
-class Conta 
+abstract class Conta implements interfaceConta
 {
     private $agencia;
     private $conta;
