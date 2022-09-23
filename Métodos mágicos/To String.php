@@ -4,7 +4,7 @@ use MinhaData as GlobalMinhaData;
 
 class MinhaData extends DateTime 
 {
-    function __toString()
+    function __toString() // funcão __toString é procurada caso houver algum erro na chamada do obj
     {
         return $this->format("d/m/y");
     }
